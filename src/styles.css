@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+header {
+  background: #0f62fe; /* IBM Blue */
+  color: white;
+  padding: 2rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  margin: 2rem 0;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
