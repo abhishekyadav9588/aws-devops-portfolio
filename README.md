@@ -45,6 +45,25 @@ Code
 - [ ] Day 6: Serverless contact form
 - [ ] Day 7: Custom domain + polish
 
+## 🚀 Day 2: AWS S3 Deployment
+
+- Created an S3 bucket in `ap-south-1` region
+- Configured static website hosting
+- Uploaded portfolio files using AWS CLI (`aws s3 sync`)
+- Applied bucket policy for public access
+- Portfolio is now live at:  
+  👉 http://abhishek-devops-portfolio.s3-website.ap-south-1.amazonaws.com
+## 🚀 Day 2: AWS S3 Deployment
+
+Today I deployed my portfolio website to **Amazon S3** as a static site.
+
+### ✅ What I did
+- Created an S3 bucket in the `ap-south-1` (Mumbai) region
+- Configured **static website hosting** with `index.html` as the root
+- Uploaded my project files using the AWS CLI:
+  ```bash
+  aws s3 sync ./src s3://abhishek-devops-portfolio
+
 ---
 
 ## 📬 Contact
