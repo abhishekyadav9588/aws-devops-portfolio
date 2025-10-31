@@ -1,32 +1,102 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
+  //to be filled
+    <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Abhishek | DevOps Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Abhishek</h1>
-    <p>Aspiring DevOps Engineer | AWS | Linux</p>
+  <header class="fade-in">
+    <div class="header-content">
+      <h1>Abhishek</h1>
+      <p class="title">DevOps Engineer</p>
+      <p class="subtitle">Specializing in AWS Cloud & DevOps Solutions</p>
+    </div>
   </header>
   <main>
-    <section id="projects">
-      <h2>Projects</h2>
-      <p>Coming soon…</p>
+    <section id="about" class="slide-in">
+      <h2><i class="fas fa-user"></i> About Me</h2>
+      <p>Passionate DevOps Engineer with expertise in AWS Cloud infrastructure, automation, and continuous integration/deployment pipelines.</p>
     </section>
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>AWS Cloud</li>
-        <li>Linux</li>
-        <li>DevOps Tools</li>
-      </ul>
+    
+    <section id="skills" class="slide-in">
+      <h2><i class="fas fa-cogs"></i> Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <div class="skill-name">AWS Cloud</div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">Docker</div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">Kubernetes</div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">Jenkins</div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">Linux</div>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%"></div>
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: yourname@example.com</p>
+
+    <section id="projects" class="slide-in">
+      <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>AWS Infrastructure Automation</h3>
+          <p>Automated AWS infrastructure deployment using Terraform and CloudFormation</p>
+          <div class="project-tags">
+            <span>AWS</span>
+            <span>Terraform</span>
+            <span>IaC</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>CI/CD Pipeline</h3>
+          <p>Implemented automated CI/CD pipeline using Jenkins and Docker</p>
+          <div class="project-tags">
+            <span>Jenkins</span>
+            <span>Docker</span>
+            <span>Git</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="slide-in">
+      <h2><i class="fas fa-envelope"></i> Contact</h2>
+      <div class="contact-grid">
+        <a href="mailto:abhishekyadav.gurgaon@gmail.com" class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>Email</span>
+        </a>
+        <a href="https://www.linkedin.com/in/abhishek-yadav-33242a211" class="contact-item" target="_blank">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/abhishekyadav9588" class="contact-item" target="_blank">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+      </div>
     </section>
   </main>
   <script src="app.js"></script>
