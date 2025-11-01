@@ -66,7 +66,7 @@ Today I deployed my portfolio website to **Amazon S3** as a static site.
 
   ## 🌐 Day 3: CloudFront + HTTPS + Portfolio Enhancements
 
-Today I upgraded my portfolio hosting from a simple S3 static site to a **production‑grade setup** using Amazon CloudFront, and also enhanced the frontend with animations, interactivity, and modern styling.
+Today I upgraded my portfolio hosting from a simple S3 static site to a **production‑grade setup** using Amazon CloudFront, and also enhanced the frontend with animations, interactivity, and modern [...]
 
 ### ✅ Infrastructure Achievements
 - Created a **CloudFront distribution** with my S3 bucket website endpoint as the origin
@@ -87,7 +87,7 @@ Today I upgraded my portfolio hosting from a simple S3 static site to a **produc
   - Mobile‑friendly design with media queries
 
 ### 🌍 Live Portfolio (CloudFront URL)
-👉 d54pb8ojgnvs2.cloudfront.net  
+👉 [d54pb8ojgnvs2.cloudfront.net](https://d54pb8ojgnvs2.cloudfront.net)  
 
 ### 📖 Key Learnings
 - Difference between **S3 website endpoint** vs. **S3 bucket ARN** when used as CloudFront origin
