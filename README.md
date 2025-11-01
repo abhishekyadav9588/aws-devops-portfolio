@@ -87,7 +87,7 @@ Today I upgraded my portfolio hosting from a simple S3 static site to a **produc
   - Mobile‑friendly design with media queries
 
 ### 🌍 Live Portfolio (CloudFront URL)
-👉 [View Portfolio on CloudFront](d54pb8ojgnvs2.cloudfront.net)  
+👉 d54pb8ojgnvs2.cloudfront.net  
 
 ### 📖 Key Learnings
 - Difference between **S3 website endpoint** vs. **S3 bucket ARN** when used as CloudFront origin
