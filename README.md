@@ -97,8 +97,59 @@ Today I upgraded my portfolio hosting from a simple S3 static site to a **produc
 - How frontend polish (animations, responsive design, interactivity) improves user experience
 
 ---
+Day 4
+# 🚀 AWS DevOps Portfolio Deployment (CI/CD + Resume Hosting)
+
+This repository showcases my **automated portfolio deployment pipeline** using **GitHub Actions**, **AWS S3**, and **CloudFront** — with integrated resume hosting and cache invalidation.
+
+---
+
+## 📦 Project Structure
+PORTFOLIO/ 
+├── src/ # Portfolio website files (HTML, CSS, JS) 
+├── Resume/ # Resume PDF for public access 
+│ └── Abhishek_AWScloudTrainee.pdf 
+├── .github/ │ └── workflows/ 
+│ └── deploy.yml # CI/CD pipeline configuration 
+└── README.md
 
 
+---
+
+## ⚙️ CI/CD Workflow Overview
+
+### ✅ Trigger
+- Automatically runs on every `push` to the `main` branch.
+
+### 🔧 Steps
+1. **Checkout Code**  
+2. **Configure AWS Credentials** (via GitHub Secrets)  
+3. **Sync Portfolio Files to S3** (`src/` → S3 bucket root)  
+4. **Upload Resume PDF** (`Resume/` → S3 `Resume/` folder)  
+5. **Invalidate CloudFront Cache** (to reflect latest changes)
+
+---
+
+## 🔐 GitHub Secrets Required
+
+| Key | Description |
+|-----|-------------|
+| `AWS_ACCESS_KEY_ID` | IAM user's access key |
+| `AWS_SECRET_ACCESS_KEY` | IAM user's secret key |
+| `AWS_REGION` | e.g. `ap-south-1` |
+| `DISTRIBUTION_ID` | CloudFront distribution ID |
+
+---
+
+## 🌐 Live URLs
+
+- **Portfolio Website:**  
+  `d54pb8ojgnvs2.cloudfront.net`
+
+- **Resume PDF (S3 Direct):**  
+  `https://abhishek-devops-portfolio.s3.ap-south-1.amazonaws.com/Resume/Abhishek_AWScloudTrainee.pdf`
+
+---
 
 ---
 
