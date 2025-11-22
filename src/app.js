@@ -40,7 +40,7 @@ const AWS_CONFIG = {
 document.getElementById('downloadResume').addEventListener('click', async (e) => {
     e.preventDefault();
     try {
-        const resumeUrl = `https://${AWS_CONFIG.bucketName}.s3.${AWS_CONFIG.region}.amazonaws.com/${AWS_CONFIG.resumeKey}`;
+        const resumeUrl = `https://drive.google.com/file/d/1QQ03fwdgbGayqC43gE7F8vNnJ73-8WnV/view?usp=drivesdk`;
         window.open(resumeUrl, '_blank');
     } catch (error) {
         console.error('Error downloading resume:', error);
