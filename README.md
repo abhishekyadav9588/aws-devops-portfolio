@@ -64,6 +64,42 @@ Today I deployed my portfolio website to **Amazon S3** as a static site.
   ```bash
   aws s3 sync ./src s3://abhishek-devops-portfolio
 
+  ## 🌐 Day 3: CloudFront + HTTPS + Portfolio Enhancements
+
+Today I upgraded my portfolio hosting from a simple S3 static site to a **production‑grade setup** using Amazon CloudFront, and also enhanced the frontend with animations, interactivity, and modern [...]
+
+### ✅ Infrastructure Achievements
+- Created a **CloudFront distribution** with my S3 bucket website endpoint as the origin
+- Configured **Viewer Protocol Policy** to redirect all HTTP traffic → HTTPS
+- Set **Default Root Object** to `index.html` to avoid 403 errors
+- Verified my site is now served securely via CloudFront’s global CDN
+
+### 🎨 Frontend Improvements
+- Added **scroll animations** (`fade-in`, `slide-in`) using `IntersectionObserver`
+- Implemented **animated skill bars** that fill dynamically when the skills section is visible
+- Integrated a **Resume Download** button (served via S3/CloudFront)
+- Built a **Contact Form Modal** with open/close logic and form submission handling
+- Enhanced **UI styling** with:
+  - CSS variables for consistent theming
+  - Gradient header with diagonal cut
+  - Card‑style sections with hover lift
+  - Responsive grid layouts for skills, projects, and contact methods
+  - Mobile‑friendly design with media queries
+
+### 🌍 Live Portfolio (CloudFront URL)
+👉 [d54pb8ojgnvs2.cloudfront.net](https://d54pb8ojgnvs2.cloudfront.net)  
+
+### 📖 Key Learnings
+- Difference between **S3 website endpoint** vs. **S3 bucket ARN** when used as CloudFront origin
+- How CloudFront caches content at edge locations for faster global delivery
+- Importance of **invalidations** to refresh cached files after updates
+- How HTTPS improves trust and security for end users
+- How frontend polish (animations, responsive design, interactivity) improves user experience
+
+---
+
+
+
 ---
 
 ## 📬 Contact
