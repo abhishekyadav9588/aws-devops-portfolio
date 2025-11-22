@@ -19,7 +19,8 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Sync portfolio files to S3
-        run: aws s3 sync . s3://abhishek-devops-portfolio --delete
+        run: aws s3 sync ./src s3://abhishek-devops-portfolio --delete
+
 
       - name: Upload Resume PDF
         run: aws s3 cp ./Resume/Abhishek_AWScloudTrainee.pdf s3://abhishek-devops-portfolio/Resume/ --acl public-read
