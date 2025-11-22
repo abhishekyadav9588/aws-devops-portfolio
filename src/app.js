@@ -32,8 +32,9 @@ document.querySelectorAll('section').forEach(section => {
 const AWS_CONFIG = {
     bucketName: 'abhishek-devops-portfolio',
     region: 'ap-south-1',
-    resumeKey: 'Resume/Abhishek_MBA.pdf'
+    resumeKey: 'Resume/Abhishek_AWScloudTrainee.pdf'
 };
+// https://abhishek-devops-portfolio.s3.ap-south-1.amazonaws.com/Resume/Abhishek_AWScloudTrainee.pdf
 
 // Resume Download Function
 document.getElementById('downloadResume').addEventListener('click', async (e) => {
