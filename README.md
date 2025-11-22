@@ -146,8 +146,8 @@ PORTFOLIO/
 - **Portfolio Website:**  
   `d54pb8ojgnvs2.cloudfront.net`
 
-- **Resume PDF (S3 Direct):**  
-  `https://abhishek-devops-portfolio.s3.ap-south-1.amazonaws.com/Resume/Abhishek_AWScloudTrainee.pdf`
+- **Resume PDF (Google Drive Link):**  
+  `https://drive.google.com/file/d/1QQ03fwdgbGayqC43gE7F8vNnJ73-8WnV/view?usp=drivesdk`
 
 ---
 
