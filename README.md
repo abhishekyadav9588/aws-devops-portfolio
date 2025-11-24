@@ -141,6 +141,12 @@ PORTFOLIO/
 
 ---
 
+### 📄 Resume Hosting
+- Initially hosted via AWS S3 bucket, but due to ACL restrictions, now served via **Google Drive public link**.
+- CI/CD pipeline (`deploy.yml`) has the resume upload step **commented out**.
+- Portfolio website still deploys automatically to S3 + CloudFront.
+
+
 ## 🌐 Live URLs
 
 - **Portfolio Website:**  
