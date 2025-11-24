@@ -21,8 +21,8 @@ jobs:
       - name: Sync portfolio files to S3
         run: aws s3 sync ./src s3://abhishek-devops-portfolio --delete
 
-      - name: Upload Resume PDF
-        run: aws s3 cp ./Resume/Abhishek_AWScloudTrainee.pdf s3://abhishek-devops-portfolio/Resume/
+    #  - name: Upload Resume PDF
+    #    run: aws s3 cp ./Resume/Abhishek_AWScloudTrainee.pdf s3://abhishek-devops-portfolio/Resume/
 
       - name: Invalidate CloudFront cache
         run: aws cloudfront create-invalidation --distribution-id ${{ secrets.DISTRIBUTION_ID }} --paths "/*"
