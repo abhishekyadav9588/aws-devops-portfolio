@@ -130,7 +130,7 @@ PORTFOLIO/
 
 ---
 
-## 🔐 GitHub Secrets Required
+## 🔐 GitHub Secrets deployed
 
 | Key | Description |
 |-----|-------------|
@@ -156,4 +156,4 @@ PORTFOLIO/
 ## 📬 Contact
 - GitHub: [abhishekyadav9588](https://github.com/abhishekyadav9588)
 - LinkedIn: [Your LinkedIn Profile](#)
-- Email: sunnyyadav1448@gmail.com
+- Email: abhishekyadav.gurgaon@gmail.com
